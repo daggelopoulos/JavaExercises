@@ -68,7 +68,7 @@ public class EnterTheClub {
         double height = input.nextDouble();
         System.out.println("Now, " + name + " enter your weight");
         double weight = input.nextDouble();
-        double BMI = height / (weight * weight);
+        double BMI = weight / (height * height);
         if (BMI <= 18.5) {
             System.out.println("You are underweight");
         } else if (BMI > 18.5 && BMI < 25) {
